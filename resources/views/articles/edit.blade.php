@@ -64,7 +64,6 @@
                                 @enderror
                             </div>
 
-
                             <div class="grid gap-4">
                                 <label class="font-bold text-blue-800 text-lg" for="id_couleur">Couleur</label>
                                 <select class="mb-8" id="id_couleur" name="id_couleur">
@@ -76,7 +75,6 @@
                                 </select>
 
                             </div>
-
 
                             <div>
                                 <label class="font-bold text-blue-800 text-lg" for="date_inventaire">Date inventaire</label>
@@ -100,10 +98,6 @@
                                 @endforeach
 
                             </div>
-
-
-
-
 
                             <div>
                                 <button type="submit"><x-save_btn></x-save_btn></button>
